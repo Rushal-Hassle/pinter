@@ -8,7 +8,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-gem 'devise', '~> 3.5.3'
+gem 'devise', '3.5.3'
 
 group :development, :test do
 	gem 'sqlite3'
