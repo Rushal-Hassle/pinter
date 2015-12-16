@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
  
 
+  devise_for :installs
+  devise_for :installs
  root "pages#home"
 get "about" => "pages#about"
 get "home" => "pages#home"
