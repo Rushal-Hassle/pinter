@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
-<<<<<<< HEAD
+
 ruby '2.2.1'	
-=======
-ruby '2.0.0'	
->>>>>>> 1a29ab13066f3d932b5010f916473c4b75b82aba
+
+
 
 gem 'rails', '4.2.5'
 gem 'sass-rails', '~> 5.0'
@@ -12,10 +11,9 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-<<<<<<< HEAD
 gem 'devise', '~> 3.5.3'
-=======
->>>>>>> 1a29ab13066f3d932b5010f916473c4b75b82aba
+
+
 
 group :development, :test do
 	gem 'sqlite3'
