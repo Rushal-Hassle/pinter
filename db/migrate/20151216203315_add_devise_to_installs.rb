@@ -1,5 +1,14 @@
 class AddDeviseToInstalls < ActiveRecord::Migration
   def self.up
+     def up
+         drop_table :users
+
+         create_table :users do |t|
+         t.string :name
+         #...
+
+         t.timestamps
+      end
     change_table(:installs) do |t|
       ## Database authenticatable
       t.string :email,              null: false, default: ""
