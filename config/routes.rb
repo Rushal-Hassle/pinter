@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
  
 
+  devise_for :models
   devise_for :users
   #devise_for :installs
   #devise_for :installs
